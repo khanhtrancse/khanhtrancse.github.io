@@ -1,0 +1,21 @@
+<div class="post-card col-12 px-0">
+    <h2 class="my-0">
+        <a title="{{post.title}}" href="{{include.url}}">{{include.title}}</a>
+    </h2>
+    <div class="col-12 row px-0 mx-0">
+        <div class="post-card-time">{{include.date}}</div>
+        <div class="mx-1">&mdash;</div>
+        {% for category in include.categories %}
+        <div class="post-detail-category mx-1">{{category}}</div>
+        {% endfor %}
+    </div>
+
+    <p class="post-card-detail">
+        <a class="float-left mr-3" href="{{include.url}}">
+            <img class="post-card-image" src="{{include.image}}" />
+        </a>
+        {{include.summary}}
+    </p>
+
+    <hr />
+</div>
