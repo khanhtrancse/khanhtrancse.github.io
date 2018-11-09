@@ -1,0 +1,228 @@
+/*
+  Theme Name:     QKT-Blog-Theme
+  Author:         Tran Quoc Khanh
+*/
+/*
+  Table of contents
+    0. General
+    1. Sidebar
+    2. Navbar
+    3. Main container
+    4. Post card
+    5. Loader
+    6. No data
+*/
+/*
+0. General
+*/
+a {
+  color: #000; }
+
+a:hover {
+  color: #596296;
+  text-decoration: none; }
+
+/**
+1. Sidebar
+*/
+.sidebar {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #E7EFF2; }
+
+.side-bar-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); }
+
+.menu-item {
+  display: block;
+  color: #000; }
+
+.blog-name {
+  font-family: "Helvetica", "Helvetica Neue", "Arial", "sans-serif"; }
+
+.blog-name:hover {
+  text-decoration: none !important; }
+
+.blog-description {
+  font-family: 'Merriweather', serif; }
+
+@media only screen and (min-width: 64.063em) {
+  .sidebar {
+    display: inherit; } }
+@media only screen and (max-width: 64em) {
+  .sidebar {
+    display: none; } }
+/*
+2. Navigaton bar
+*/
+.custom-nav {
+  background-color: #E7EFF2; }
+
+.navbar-main {
+  height: 3em; }
+
+.menu-button:hover {
+  cursor: pointer !important; }
+
+@media only screen and (min-width: 64.063em) {
+  .custom-nav {
+    display: none; } }
+@media only screen and (max-width: 64em) {
+  .custom-nav {
+    display: inherit; } }
+/*
+3. Main container
+*/
+.main {
+  margin-left: 250px; }
+
+@media only screen and (min-width: 64.063em) {
+  .main {
+    margin-left: 250px;
+    margin-top: 0px; } }
+@media only screen and (max-width: 64em) {
+  .main {
+    margin-left: 0px;
+    margin-top: 3em; } }
+/*
+4. Post card
+*/
+.post-card {
+  position: relative; }
+
+.post-card-image {
+  display: block;
+  width: 10em;
+  height: 8em; }
+
+.post-card-detail {
+  display: block;
+  min-height: 8em; }
+
+.post-card-time {
+  font-size: 12px;
+  line-height: 22px;
+  color: #7E7E7E; }
+
+/*
+  5. Loader
+*/
+.loader {
+  height: 500px; }
+
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg);
+  transform-origin: 32px 32px; }
+
+.lds-heart div {
+  top: 23px;
+  left: 19px;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background: #e61111;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 2em;
+  height: 2em;
+  background: #e60707; }
+
+.lds-heart div:before {
+  left: -17px;
+  border-radius: 50% 0 0 50%; }
+
+.lds-heart div:after {
+  top: -17px;
+  border-radius: 50% 50% 0 0; }
+
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95); }
+  5% {
+    transform: scale(1.1); }
+  39% {
+    transform: scale(0.85); }
+  45% {
+    transform: scale(1); }
+  60% {
+    transform: scale(0.95); }
+  100% {
+    transform: scale(0.9); } }
+/*
+6. No data
+*/
+.no-data {
+  height: 500px; }
+
+.no-data-image {
+  width: 10em;
+  height: 10em;
+  margin-bottom: 3em; }
+
+.no-data-title {
+  color: #7E7E7E;
+  text-align: center; }
+
+/*
+7. Post detail
+*/
+.post-cover-image {
+  max-height: 200px;
+  width: 100% !important;
+  padding-top: 30%;
+  height: auto !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; }
+
+.post-detail {
+  margin-top: -6em;
+  width: 80%;
+  background: white; }
+
+.post-detail-title {
+  text-align: center; }
+
+.post-detail-date {
+  font-size: 14px;
+  line-height: 22px;
+  color: #7E7E7E; }
+
+.post-detail-category {
+  font-size: 14px;
+  line-height: 22px;
+  color: #7E7E7E; }
+
+@media only screen and (min-width: 64.063em) {
+  .post-detail {
+    margin-top: -6em;
+    width: 80%;
+    padding: 3em 4em; }
+
+  .post-cover-image {
+    max-height: 600px; } }
+@media only screen and (max-width: 64em) {
+  .post-detail {
+    margin-top: 0em;
+    width: 100%;
+    padding: 1em 0em; }
+
+  .post-cover-image {
+    max-height: 300px; } }
