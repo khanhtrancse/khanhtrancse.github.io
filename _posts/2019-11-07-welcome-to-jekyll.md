@@ -4,6 +4,7 @@ title: "How to make your blog free."
 date: 2018-11-09
 dateString: "2018 Oct 09"
 categories: jekyll update
+image: http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg
 thumbnail-image: http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg
 summary: "1. Introduction
 2. Prerequisites
