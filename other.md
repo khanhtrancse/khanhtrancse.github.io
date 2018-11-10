@@ -1,10 +1,7 @@
 ---
 layout: default
 title: Other
+category: other
 ---
-<div class="col-12 col-lg-9 mx-auto px-0 py-3">
-    {% for post in site.posts %}
-        {% include post-card.html title=post.title url=post.url summary=post.summary
-          date=post.dateString image=post.thumbnail-image categories=post.categories  %}
-    {% endfor %}
-</div>
+
+{% include post-list.html category = page.category %}

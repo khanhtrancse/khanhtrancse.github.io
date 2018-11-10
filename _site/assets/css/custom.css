@@ -15,13 +15,6 @@
 /*
 0. General
 */
-a {
-  color: #000; }
-
-a:hover {
-  color: #596296;
-  text-decoration: none; }
-
 /**
 1. Sidebar
 */
@@ -54,6 +47,13 @@ a:hover {
 .blog-description {
   font-family: 'Merriweather', serif; }
 
+.sidebar a {
+  color: #000; }
+
+.sidebar a:hover {
+  color: #596296;
+  text-decoration: none; }
+
 @media only screen and (min-width: 64.063em) {
   .sidebar {
     display: inherit; } }
@@ -65,6 +65,13 @@ a:hover {
 */
 .custom-nav {
   background-color: #E7EFF2; }
+
+.custom-nav a {
+  color: #000; }
+
+.custom-nav a:hover {
+  color: #596296;
+  text-decoration: none; }
 
 .navbar-main {
   height: 3em; }
@@ -111,6 +118,13 @@ a:hover {
   font-size: 12px;
   line-height: 22px;
   color: #7E7E7E; }
+
+.post-card a {
+  color: #000; }
+
+.post-card a:hover {
+  color: #596296;
+  text-decoration: none; }
 
 /*
   5. Loader
