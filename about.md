@@ -2,20 +2,20 @@
 layout: post
 title: About
 permalink: /about/
-image: http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg
+image: /assets/images/about-me.jpg
 ---
 
 ## About me
     
-Hey guys (gals), I'm Khanh Tran Quoc - a junior developer. I live in Ho Chi Minh, Vietnam with two cats and a old laptop. I was worked as Android developer and currently I am learning Javascript and related Frameworks (React, React Native and Nodejs).
+Hey guys (gals), I'm Khanh Tran Quoc - a junior developer. I live in Ho Chi Minh, Vietnam with two cats. I have worked as Android developer (Java) and currently I am learning Javascript and related Frameworks (React, React Native and Nodejs).
 
-I desire to become the best developer in my field so I spend many time for learning about code, design pattern, architecture, devOps,... but my knowledge is still limited (English).
+I desire to become the best developer so I spend many time for learning about code, design pattern, architecture, devOps,... but my knowledge is still poor.
 
-If you want to contact me, you can message me via Facebook or Twitter.
+If you want to contact me, you can message me via Facebook.
 
 
 ## Why do I write this blog?
 
-This blog is place to write anything I was learned and I was interested from technologies to experiences in my life. 
+I write this blog for many purpose such as: log what I learned, impove my English skilll, improve present skill,...
 
-I write this blog for other purpose that is improved my English. My English is not good so if I make mistakes, please ignore that. I am very glad if you can report when I write something wrong.
+In this blog, I will write about both technology and my experience.
