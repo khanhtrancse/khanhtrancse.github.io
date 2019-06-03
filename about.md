@@ -7,7 +7,7 @@ image: /assets/images/about-me.jpg
 
 ## About me
     
-Hey guys (gals), I'm Khanh Tran Quoc - a junior developer. I live in Ho Chi Minh, Vietnam with two cats. I have worked as Android developer (Java) and currently I am learning Javascript and related Frameworks (React, React Native and Nodejs).
+Hey guys (gals), I'm Khanh Tran Quoc - a junior developer. I have lived in Ho Chi Minh, Vietnam with two cats. I have worked as Android developer (Java) and currently I am learning Javascript and related Frameworks (ReactJS, React Native and Nodejs).
 
 I desire to become the best developer so I spend many time for learning about code, design pattern, architecture, devOps,... but my knowledge is still poor.
 

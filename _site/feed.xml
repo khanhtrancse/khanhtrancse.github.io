@@ -1,47 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://khanhtrancse.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://khanhtrancse.github.io/" rel="alternate" type="text/html" /><updated>2019-03-18T02:22:11+07:00</updated><id>https://khanhtrancse.github.io/feed.xml</id><title type="html">Tran Quoc Khanh</title><subtitle>A coder</subtitle><entry><title type="html">How to make your blog free.</title><link href="https://khanhtrancse.github.io/other/2018/11/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="How to make your blog free." /><published>2018-11-09T00:00:00+07:00</published><updated>2018-11-09T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/other/2018/11/09/welcome-to-jekyll</id><content type="html" xml:base="https://khanhtrancse.github.io/other/2018/11/09/welcome-to-jekyll.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://khanhtrancse.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://khanhtrancse.github.io/" rel="alternate" type="text/html" /><updated>2019-06-04T00:48:11+07:00</updated><id>https://khanhtrancse.github.io/feed.xml</id><title type="html">Tran Quoc Khanh</title><subtitle>A developer</subtitle><entry><title type="html">How to custom Splash Screen of React Native App (Android).</title><link href="https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html" rel="alternate" type="text/html" title="How to custom Splash Screen of React Native App (Android)." /><published>2019-06-03T00:00:00+07:00</published><updated>2019-06-03T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android</id><content type="html" xml:base="https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html">&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/start.gif&quot; alt=&quot;before&quot; width=&quot;300&quot; /&gt;
+&lt;span class=&quot;mx-3&quot;&gt;to&lt;/span&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/end.gif&quot; alt=&quot;after&quot; width=&quot;300&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;why-do-i-see-this-screen-what-is-it&quot;&gt;Why do I see this screen? What is it?&lt;/h2&gt;
+
+&lt;p&gt;When you open an React Native App, you will see the white screen before you see your coded screen. Why do you see it?&lt;/p&gt;
+
+&lt;p&gt;To know why you see this screen, you must know how an react native app work? React Native app includes two main part: native screen and javascript code. When you start an app, the system will load the native screen and the native screen will load your javascript code. So you will see the native screen (default it is white screen) util the javascript code was loaded completely.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-custom-this-screen&quot;&gt;How to custom this screen?&lt;/h2&gt;
+
+&lt;p&gt;To custom this screen, you need Android Studio and some knowledge about android app.  You will create a new background and override the white background.&lt;/p&gt;
+
+&lt;h4 id=&quot;prepare-resource&quot;&gt;Prepare resource&lt;/h4&gt;
+
+&lt;p&gt;We need change style of native app to see clearly. I will change background of my app to #CCC.&lt;/p&gt;
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/home.jpg&quot; alt=&quot;main&quot; width=&quot;300&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you want to show your logo in splash screen, you have to create several logo files for different desity screens. To do this, you must have a logo file, I use &lt;a href=&quot;/assets/images/react-native-splash-screen/android.png&quot;&gt;android logo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open project in Android Studio (Open file android/build.gradle in Android Studio), create new Image Asset (click right mouse at res -&amp;gt; New -&amp;gt; Image Asset):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Icon Type: Launcher Icons (Legary only)&lt;/li&gt;
+  &lt;li&gt;Name: ic_logo&lt;/li&gt;
+  &lt;li&gt;Asset Type: Image&lt;/li&gt;
+  &lt;li&gt;Path: select path to logo&lt;/li&gt;
+  &lt;li&gt;Shape: None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/create-logo.jpg&quot; alt=&quot;create-logo&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;override-default-screen&quot;&gt;Override default screen&lt;/h4&gt;
+
+&lt;p&gt;Create new file colors.xml in folder android/app/src/main/res/values (right click res/values -&amp;gt; New -&amp;gt; Values resource file).&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/706b9b346c2966ac946e904537fb33dc.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;If folder res/drawable don’t exist, create it (right click res -&amp;gt; New -&amp;gt; Android Resource Directory):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Directory name: drawable&lt;/li&gt;
+  &lt;li&gt;Resource type: drawable&lt;/li&gt;
+  &lt;li&gt;Source set: main&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/create-drawable.jpg&quot; alt=&quot;Create drawable folder&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create new file splash_background.xml in folder android/app/src/main/res/drawable (right click res/drawable -&amp;gt; New -&amp;gt; Drawable resource file).&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/706b9b346c2966ac946e904537fb33dc.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Modify file styles.xml in folder android/app/src/main/res/values from&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/41400b83d58d42b4338245e044c10f08.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/ddfec3ba7368fb8cd7d7a8b3a6ddc31a.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Finally, change the screen style, you need change theme of your activity in AndroidManifest.xml in folder manifests from&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/380a67e205c6aa1cbe876224a5ff3dda.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/d69c121be0610171421506072acc40eb.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Project structure:&lt;/p&gt;
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/project-structure-android.jpg&quot; alt=&quot;project-structure-android&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;There is result&lt;/p&gt;
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/react-native-splash-screen/end.gif&quot; alt=&quot;project-structure-android&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;You can find source code of project on &lt;a href=&quot;https://github.com/khanhtrancse/demo-splash-screen-rn&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">to</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry><entry><title type="html">How to structure React native project.</title><link href="https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project.html" rel="alternate" type="text/html" title="How to structure React native project." /><published>2019-05-30T00:00:00+07:00</published><updated>2019-05-30T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project</id><content type="html" xml:base="https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;Introduction&lt;/li&gt;
-  &lt;li&gt;Prerequisites&lt;/li&gt;
-  &lt;li&gt;A quick primer on Docker and AWS&lt;/li&gt;
-  &lt;li&gt;What we’ll be deploying&lt;/li&gt;
-  &lt;li&gt;Creating a Dockerfile&lt;/li&gt;
-  &lt;li&gt;Building a docker image&amp;lt;&lt;/li&gt;
-  &lt;li&gt;Running a docker container&lt;/li&gt;
-  &lt;li&gt;Creating the Registry (ECR) and upload the app image to it&lt;/li&gt;
-  &lt;li&gt;Creating a new task definition&lt;/li&gt;
-  &lt;li&gt;Creating a cluster&lt;/li&gt;
-  &lt;li&gt;Creating a service to run it&lt;/li&gt;
-  &lt;li&gt;Conclusion&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Table of Contents Introduction Prerequisites A quick primer on Docker and AWS What we’ll be deploying Creating a Dockerfile Building a docker image&amp;lt; Running a docker container Creating the Registry (ECR) and upload the app image to it Creating a new task definition Creating a cluster Creating a service to run it Conclusion</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry><entry><title type="html">Docker</title><link href="https://khanhtrancse.github.io/technical/other/2018/11/08/test-post.html" rel="alternate" type="text/html" title="Docker" /><published>2018-11-08T00:00:00+07:00</published><updated>2018-11-08T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/technical/other/2018/11/08/test-post</id><content type="html" xml:base="https://khanhtrancse.github.io/technical/other/2018/11/08/test-post.html">&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Introduction&lt;/li&gt;
-  &lt;li&gt;Prerequisites&lt;/li&gt;
-  &lt;li&gt;A quick primer on Docker and AWS&lt;/li&gt;
-  &lt;li&gt;What we’ll be deploying&lt;/li&gt;
-  &lt;li&gt;Creating a Dockerfile&lt;/li&gt;
-  &lt;li&gt;Building a docker image&lt;/li&gt;
-  &lt;li&gt;Running a docker container&lt;/li&gt;
-  &lt;li&gt;Creating the Registry (ECR) and upload the app image to it&lt;/li&gt;
-  &lt;li&gt;Creating a new task definition&lt;/li&gt;
-  &lt;li&gt;Creating a cluster&lt;/li&gt;
-  &lt;li&gt;Creating a service to run it&lt;/li&gt;
-  &lt;li&gt;Conclusion&lt;/li&gt;
+  &lt;li&gt;The old way&lt;/li&gt;
+  &lt;li&gt;New way&lt;/li&gt;
+  &lt;li&gt;Demo repository&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;1-intruduction&quot;&gt;1. Intruduction&lt;/h3&gt;
+&lt;p&gt;React Native is a free structure so you can achitructure project as you want. Choose the architecture for project is a hard problem.&lt;/p&gt;
 
-&lt;p&gt;Docker is …&lt;/p&gt;
+&lt;p&gt;Before I disscus about the structure, I will list the tool I use in my project:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;React Navigation&lt;/a&gt; - Application Navigation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Redux&lt;/a&gt; - State Manager&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Redux-thunk&lt;/a&gt; - Enable async action for Redux&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&quot;2-prerequisites&quot;&gt;2. Prerequisites&lt;/h3&gt;</content><author><name></name></author><summary type="html">Table of Contents Introduction Prerequisites A quick primer on Docker and AWS What we’ll be deploying Creating a Dockerfile Building a docker image Running a docker container Creating the Registry (ECR) and upload the app image to it Creating a new task definition Creating a cluster Creating a service to run it Conclusion</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://khanhtrancse.github.io/jekyll/update/pet-project/2018/11/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-11-07T00:00:00+07:00</published><updated>2018-11-07T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/jekyll/update/pet-project/2018/11/07/welcome-to-jekyll</id><content type="html" xml:base="https://khanhtrancse.github.io/jekyll/update/pet-project/2018/11/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;h2 id=&quot;the-old-way&quot;&gt;The old way&lt;/h2&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry></feed>
+&lt;p&gt;I start a project with following structure:&lt;/p&gt;</content><author><name></name></author><summary type="html">Table of contents Introduction The old way New way Demo repository</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://khanhtrancse.github.io/assets/images/react-native.png" /></entry></feed>
