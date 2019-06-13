@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://khanhtrancse.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://khanhtrancse.github.io/" rel="alternate" type="text/html" /><updated>2019-06-04T00:48:11+07:00</updated><id>https://khanhtrancse.github.io/feed.xml</id><title type="html">Tran Quoc Khanh</title><subtitle>A developer</subtitle><entry><title type="html">How to custom Splash Screen of React Native App (Android).</title><link href="https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html" rel="alternate" type="text/html" title="How to custom Splash Screen of React Native App (Android)." /><published>2019-06-03T00:00:00+07:00</published><updated>2019-06-03T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android</id><content type="html" xml:base="https://khanhtrancse.github.io/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html">&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-13T09:43:02+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tran Quoc Khanh</title><subtitle>A developer</subtitle><entry><title type="html">How to custom Splash Screen of React Native App (Android).</title><link href="http://localhost:4000/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html" rel="alternate" type="text/html" title="How to custom Splash Screen of React Native App (Android)." /><published>2019-06-03T00:00:00+07:00</published><updated>2019-06-03T00:00:00+07:00</updated><id>http://localhost:4000/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android</id><content type="html" xml:base="http://localhost:4000/technical/2019/06/03/how-to-custom-splash-screen-react-native-on-android.html">&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
 &lt;div&gt;
 &lt;img src=&quot;/assets/images/react-native-splash-screen/start.gif&quot; alt=&quot;before&quot; width=&quot;300&quot; /&gt;
 &lt;span class=&quot;mx-3&quot;&gt;to&lt;/span&gt;
@@ -97,15 +97,16 @@
 &lt;img src=&quot;/assets/images/react-native-splash-screen/end.gif&quot; alt=&quot;project-structure-android&quot; width=&quot;400&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;You can find source code of project on &lt;a href=&quot;https://github.com/khanhtrancse/demo-splash-screen-rn&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">to</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry><entry><title type="html">How to structure React native project.</title><link href="https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project.html" rel="alternate" type="text/html" title="How to structure React native project." /><published>2019-05-30T00:00:00+07:00</published><updated>2019-05-30T00:00:00+07:00</updated><id>https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project</id><content type="html" xml:base="https://khanhtrancse.github.io/technical/2019/05/30/how-to-structure-react-native-project.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
+&lt;p&gt;You can find source code of project on &lt;a href=&quot;https://github.com/khanhtrancse/demo-splash-screen-rn&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">to</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg" /></entry><entry><title type="html">How to structure React Native App.</title><link href="http://localhost:4000/technical/2019/05/30/how-to-structure-react-native-project.html" rel="alternate" type="text/html" title="How to structure React Native App." /><published>2019-05-30T00:00:00+07:00</published><updated>2019-05-30T00:00:00+07:00</updated><id>http://localhost:4000/technical/2019/05/30/how-to-structure-react-native-project</id><content type="html" xml:base="http://localhost:4000/technical/2019/05/30/how-to-structure-react-native-project.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;Introduction&lt;/li&gt;
-  &lt;li&gt;The old way&lt;/li&gt;
-  &lt;li&gt;New way&lt;/li&gt;
+  &lt;li&gt;Understand the default structure&lt;/li&gt;
+  &lt;li&gt;The first way - for small app&lt;/li&gt;
+  &lt;li&gt;The second way - for scalable app&lt;/li&gt;
   &lt;li&gt;Demo repository&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;React Native is a free structure so you can achitructure project as you want. Choose the architecture for project is a hard problem.&lt;/p&gt;
+&lt;p&gt;One of the greate things about React Native is the flexibility. You can structure your app as you want. This is greate but can  also be problem when you choose the architecture for app, especially to new developers.&lt;/p&gt;
 
 &lt;p&gt;Before I disscus about the structure, I will list the tool I use in my project:&lt;/p&gt;
 &lt;ol&gt;
@@ -114,6 +115,90 @@
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Redux-thunk&lt;/a&gt; - Enable async action for Redux&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;the-old-way&quot;&gt;The old way&lt;/h2&gt;
+&lt;h2 id=&quot;understand-the-default-structure&quot;&gt;Understand the default structure&lt;/h2&gt;
 
-&lt;p&gt;I start a project with following structure:&lt;/p&gt;</content><author><name></name></author><summary type="html">Table of contents Introduction The old way New way Demo repository</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://khanhtrancse.github.io/assets/images/react-native.png" /></entry></feed>
+&lt;p&gt;After you create a new project, the default structure will be (for React Native 0.60):&lt;/p&gt;
+
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+    &lt;div&gt;
+    &lt;img src=&quot;/assets/images/rn-structure/default-structure.png&quot; alt=&quot;default structure&quot; width=&quot;500&quot; /&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;android/&lt;/strong&gt;: The android native code will live here. This folder contains launch icon, native modules, configurations… for android. You can open file &lt;em&gt;android/build.grade&lt;/em&gt; with Android Studio and build your app normally.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ios/&lt;/strong&gt;: The ios native code will live here. This folder contains launch icon, native modules, configurations… for ios. You can open file &lt;em&gt;ios/{project-name}.xcodeproj&lt;/em&gt; or &lt;em&gt;ios/{project-name}.xcworkspace&lt;/em&gt; with Xcode and build your app for ios.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;index.js&lt;/strong&gt;: The entry point to app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt;: This file keeps some meta data of and the libraries (and it version) was used in your app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Everything else&lt;/strong&gt;: You can ignore its at this time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-first-way---for-small-app&quot;&gt;The first way - for small app&lt;/h2&gt;
+
+&lt;p&gt;When I start work with React Native, I orginized some projects with structure based on type (type-based).&lt;/p&gt;
+
+&lt;div class=&quot;row mx-0 px-0 justify-content-center&quot;&gt;
+    &lt;div&gt;
+    &lt;img src=&quot;/assets/images/rn-structure/type-based-structure.png&quot; alt=&quot;type based structure&quot; width=&quot;500&quot; /&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;h4 id=&quot;app&quot;&gt;app&lt;/h4&gt;
+
+&lt;p&gt;The &lt;em&gt;app/&lt;/em&gt; folder is the sibling to the &lt;em&gt;android/&lt;/em&gt; or &lt;em&gt;ios/&lt;/em&gt; folder. This contains whole source code and assets of your app.&lt;/p&gt;
+
+&lt;h4 id=&quot;appactions&quot;&gt;app/actions&lt;/h4&gt;
+
+&lt;p&gt;This folder contains Redux Actions. I will define all actions in separate files by feature. Let me give you an example: I define login, logout and register actions in &lt;em&gt;auth.js&lt;/em&gt; file, and getPlaylist, getSongs action in &lt;em&gt;song.js&lt;/em&gt; file.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/b5dfed84349a1f932041a945c5d971b4.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;If you don’t use Redux, you can skip this folder.&lt;/p&gt;
+
+&lt;h4 id=&quot;appcomponents&quot;&gt;app/components&lt;/h4&gt;
+
+&lt;p&gt;This folder contains components for app. The goals of this is maximun code reuse. We will push our components to this folder. Here is an example of my components folder:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/e675c6bc8aed7fe56abd357094562b50.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Why some components are in a separate file, the others are in a folder?&lt;/p&gt;
+
+&lt;p&gt;Some components are very complex, so I separate it’s style and it’s logic to two files. Something else is simple, so no need to separate it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Why do I name the style of video component is video.style.js not style.js?&lt;/p&gt;
+
+&lt;p&gt;The answer is related to development process, I usually use &lt;em&gt;Cmd + P&lt;/em&gt; (or Ctrl + P in Windows) in Visual Studio for quick open file. When I want to open file style.js of video component, if I type “&lt;em&gt;style.js&lt;/em&gt;” to search for video style file, the result is too many files and so hard to pick wanted file but if I type “&lt;em&gt;video&lt;/em&gt;”,  two files are in video component was list in the top of result. So I can open it easer.&lt;/p&gt;
+
+&lt;h4 id=&quot;appconfig&quot;&gt;app/config&lt;/h4&gt;
+
+&lt;p&gt;This contains the files that define color, keep the config such as api host, admod key, …&lt;/p&gt;
+
+&lt;h4 id=&quot;appmodules-or-applibs&quot;&gt;app/modules (or app/libs)&lt;/h4&gt;
+
+&lt;p&gt;This folder contains modules such as restful api module, storage module, …&lt;/p&gt;
+
+&lt;h4 id=&quot;appreducers&quot;&gt;app/reducers&lt;/h4&gt;
+
+&lt;p&gt;This folder contains reducers that change state based on action&lt;/p&gt;
+
+&lt;h4 id=&quot;appscreens&quot;&gt;app/screens&lt;/h4&gt;
+
+&lt;p&gt;This folder contains screens (a component for whole screen).&lt;/p&gt;
+
+&lt;h4 id=&quot;appappjs&quot;&gt;app/App.js&lt;/h4&gt;
+
+&lt;p&gt;This file integrate navigation, store of redux.&lt;/p&gt;</content><author><name></name></author><summary type="html">Table of contents Introduction Understand the default structure The first way - for small app The second way - for scalable app Demo repository</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/react-native.png" /></entry></feed>
