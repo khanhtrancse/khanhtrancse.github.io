@@ -15,7 +15,7 @@ summary: ""
 3. The second way - for scalable app
 4. Demo repository
 
-One of the greate things about React Native is the flexibility. You can structure your app as you want. This is greate but can  also be problem when you choose the architecture for app, especially to new developers.
+One of the great things about React Native is the flexibility. You can structure your app as you want. This is great but can  also be problem when you choose the architecture for app, especially to new developers.
 
 Before I disscus about the structure, I will list the tool I use in my project:
 1. [React Navigation]() - Application Navigation
