@@ -48,6 +48,7 @@
 
 .blog-name{
     font-family: "Helvetica", "Helvetica Neue", "Arial", "sans-serif";
+    font-weight: bold;
 }
 
 .blog-name:hover{
@@ -84,7 +85,8 @@
 2. Navigaton bar
 */
 .custom-nav{
-    background-color: #E7EFF2;
+    background-color: white;
+    width: 100vw;
 }
 
 .custom-nav a{
@@ -103,39 +105,13 @@
     cursor: pointer !important;
 }
 
-@media only screen and (min-width: 64.063em){
-    .custom-nav{
-        display: none;
-    }
-  }
-  
-  @media only screen and (max-width: 64em){
-    .custom-nav{
-        display: inherit;
-    }
-  }
-
 /*
 3. Main container
 */
 
 .main{
-    margin-left: 250px;
+  margin-top: 3em;
 }
-
-@media only screen and (min-width: 64.063em){
-    .main{
-        margin-left: 250px;
-        margin-top: 0px;
-    }
-  }
-  
-  @media only screen and (max-width: 64em){
-    .main{
-        margin-left: 0px;
-        margin-top: 3em;
-    }
-  }
 
 /*
 4. Post card
