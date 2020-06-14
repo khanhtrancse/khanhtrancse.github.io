@@ -1,4 +1,4 @@
-# Tran Quoc Khanh Blog
+# Kenny Tran Blog
 
 This project uses Jekyll framework. For more detail, please visit [https://jekyllrb.com](https://jekyllrb.com/)
 
@@ -8,6 +8,9 @@ This project uses Jekyll framework. For more detail, please visit [https://jekyl
 2. Go to address: `localhost:4000`
 
 ## How to publish new post?
-1. Run ```jekyll build``` or ```bundle exec jekyll build```
-2. Commit ```git add . && git commit -m "Update posts"```
-3. Push ```_site``` folder to deploy remote: ```git subtree push --prefix _site deploy master```
+
+1. Add new file in _posts folder: ```yyyy-mm-dd-name-of-post.md```
+2. Commit and push to master
+3. Wait a minute!
+
+__Note:__ The post will appear when current time is greater than or equals the time of post (in file name).
