@@ -7,6 +7,7 @@ categories: technical
 image: /assets/images/react-native-splash-screen/cover.jpg
 thumbnail-image: /assets/images/react-native-splash-screen/android.png
 summary: "When you open an React Native App, you will see the white screen before the first react native screen is loaded. In this post, I will guide you how to custom this screen."
+published: true
 ---
 <div class="row mx-0 px-0 justify-content-center">
 <div>

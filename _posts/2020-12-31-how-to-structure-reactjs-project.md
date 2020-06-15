@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "How to structure reactjs project."
-date: 2020-12-30
+date: 2020-06-15
 dateString: "2019 December 31"
 categories: technical
 image: /assets/images/reactjs-structure/react-redux.png
 thumbnail-image: /assets/images/reactjs-structure/react-redux.png
 summary: ""
+published: false
 ---
 ### Table of contents
 1. Why?

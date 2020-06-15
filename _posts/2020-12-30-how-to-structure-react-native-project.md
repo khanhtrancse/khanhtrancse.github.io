@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "How to structure React Native App."
-date: 2020-12-30
+# title: "How to structure React Native App."
+date: 2020-06-15
 dateString: "2019 May 30"
 categories: technical
 image: /assets/images/react-native.png
 thumbnail-image: /assets/images/react-native.png
 summary: ""
+published: false
 ---
 ## Table of contents
 1. Introduction

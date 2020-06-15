@@ -122,8 +122,8 @@
 
 .post-card-image{
   display: block;
-  width: 10em;
-  height: 8em;
+  max-width: 10em;
+  max-height: 8em;
 }
 .post-card-detail{
   display: block;
