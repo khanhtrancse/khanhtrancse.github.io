@@ -13,4 +13,4 @@ This project uses Jekyll framework. For more detail, please visit [https://jekyl
 2. Commit and push to master
 3. Wait a minute!
 
-__Note:__ The post will appear when current time is greater than or equals the time of post (in file name).
+__Note:__ The post only appears when current time is greater than or equals the time of post (in file name).

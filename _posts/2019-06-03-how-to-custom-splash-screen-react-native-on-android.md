@@ -4,7 +4,7 @@ title: "How to custom Splash Screen of React Native App (Android)."
 date: 2019-06-03
 dateString: "2019 July 03"
 categories: technical
-image: http://stellarcode.co/wp-content/uploads/2018/06/1_KqO5C0953HQzafpnBYaTSg.jpeg
+image: /assets/images/react-native-splash-screen/cover.jpg
 thumbnail-image: /assets/images/react-native-splash-screen/android.png
 summary: "When you open an React Native App, you will see the white screen before the first react native screen is loaded. In this post, I will guide you how to custom this screen."
 ---
