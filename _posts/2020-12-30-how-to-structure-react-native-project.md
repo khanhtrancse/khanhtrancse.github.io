@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to structure React Native App."
-date: 2019-05-30
+date: 2020-12-30
 dateString: "2019 May 30"
 categories: technical
 image: /assets/images/react-native.png
